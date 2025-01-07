@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="auth-container">
+      <div class="auth-box">
+        <h1>Welcome Back!</h1>
+        <form id="loginForm">
+          <label for="login-username">Username</label>
+          <input
+            type="text"
+            id="login-username"
+            placeholder="Enter username"
+            required
+          />
+          <label for="login-password">Password</label>
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Enter password"
+            required
+          />
+          <button type="submit">Login</button>
+        </form>
+        <p class="switch-auth">
+          Don't have an account? <a href="register.html">Register here</a>.
+        </p>
+      </div>
+    </main>
+    <footer class="auth-footer">
+      <p>&copy; 2025 Blog Website. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

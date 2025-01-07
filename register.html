@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="auth-container">
+      <div class="auth-box">
+        <h1>Create an Account</h1>
+        <form id="registerForm">
+          <label for="reg-username">Username</label>
+          <input
+            type="text"
+            id="reg-username"
+            placeholder="Enter username"
+            required
+          />
+          <label for="reg-password">Password</label>
+          <input
+            type="password"
+            id="reg-password"
+            placeholder="Enter password"
+            required
+          />
+          <button type="submit">Register</button>
+        </form>
+        <p class="switch-auth">
+          Already have an account? <a href="login.html">Login here</a>.
+        </p>
+      </div>
+    </main>
+    <footer class="auth-footer">
+      <p>&copy; 2025 Blog Website. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

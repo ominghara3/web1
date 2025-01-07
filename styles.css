@@ -1,0 +1,200 @@
+/* Reset dan Font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Auth Container */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Auth Box */
+.auth-box {
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.blog-container h1,
+.blog-container h2 {
+  text-align: center;
+  color: #2575fc;
+}
+
+.auth-box label {
+  display: block;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #6a11cb;
+}
+
+.switch-auth {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.switch-auth a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}
+
+.auth-footer {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  color: #ddd;
+  font-size: 0.8rem;
+}
+
+/* Reset dan Font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Kontainer Blog */
+.blog-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-container h1,
+.blog-container h2 {
+  text-align: center;
+  color: #2575fc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #6a11cb;
+}
+
+#blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.blog-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h3 {
+  margin: 0;
+  color: #2575fc;
+}
+
+.blog-card p {
+  margin: 10px 0;
+}
+
+.blog-card .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.blog-card .actions button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.blog-card .actions .edit {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+.blog-card .actions .delete {
+  background: #d9534f;
+  color: #fff;
+}
